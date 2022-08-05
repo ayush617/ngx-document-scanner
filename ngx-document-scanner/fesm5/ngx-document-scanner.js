@@ -1,5 +1,5 @@
 import { __spread, __decorate, __metadata, __param, __awaiter, __generator } from 'tslib';
-import { ɵɵdefineInjectable, Injectable, Input, Component, EventEmitter, Inject, Output, ViewChild, ElementRef, NgModule } from '@angular/core';
+import { defineInjectable, Injectable, Input, Component, EventEmitter, Inject, Output, ViewChild, ElementRef, NgModule } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { MatBottomSheetRef, MAT_BOTTOM_SHEET_DATA, MatBottomSheet, MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { NgxOpenCVService, OpenCvConfigToken, NgxOpenCVModule } from 'ngx-opencv';
@@ -206,7 +206,7 @@ var LimitsService = /** @class */ (function () {
             bottom: 'y'
         }[direction];
     };
-    LimitsService.ɵprov = ɵɵdefineInjectable({ factory: function LimitsService_Factory() { return new LimitsService(); }, token: LimitsService, providedIn: "root" });
+    LimitsService.ɵprov = defineInjectable({ factory: function LimitsService_Factory() { return new LimitsService(); }, token: LimitsService, providedIn: "root" });
     LimitsService = __decorate([
         Injectable({
             providedIn: 'root'
